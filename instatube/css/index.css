@@ -1,0 +1,138 @@
+body {
+	background-color: #9ACCCD;
+}
+
+#contenedor {
+	width: 80%;
+	margin: auto;
+	background-color: #AAAAAA;
+	margin-top: 80px;
+}
+
+#cabecera {
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 80px;
+	background-color: #8FD8A0;
+	position: fixed;
+	z-index: 10;
+}
+
+ul#menu {
+	float: left;
+	margin: 10px;
+	padding: 20px;
+	list-style-type: none;
+}
+
+ul#menu li {
+	display: inline;
+	padding: 10px;
+}
+
+ul#menu li a {
+    background-color: #4682B4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+ul#menu li a:hover {
+    background-color: #FF0808;
+}
+
+#buscador {
+	float: left;
+	margin: 10px;
+	padding: 15px;
+}
+
+#buscador input {
+	display: inline-block;
+	padding: 4px 6px;
+	border: 1px solid #d3d3d3;
+	border-radius: 4px 0 0 4px;
+	outline: none;
+	font-size: 16px;
+	width: 300px;
+}
+#buscador input:hover {
+	box-shadow: 0 1px 0 rgba(0,0,0,0.10);
+}
+
+#buscador button {
+	float: right;
+	border: 1px solid #d3d3d3;
+	border-radius: 0 4px 4px 0;
+	background: #f8f8f8;
+	color: #333;
+	display: inline-block;
+	height: 28px;
+	padding: 0 10px;
+	outline: 0;
+	font-weight: bold;
+	font-size: 11px;
+	text-decoration: none;
+	white-space: nowrap;
+	word-wrap: normal;
+	line-height: normal;
+	vertical-align: middle;
+}
+
+#buscador button:hover {
+	border-color: #c6c6c6;
+	background: #f0f0f0;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.10);
+}
+
+span#busca {
+	display: block;
+	border: none;
+	padding: 0;
+	opacity: .6;
+	text-indent: -10000px;
+	background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflAhaHWR.webp) -293px -28px;
+	background-size: auto;
+	width: 14px;
+	height: 14px;
+	box-shadow: none;
+}
+
+span#busca:hover {
+	opacity: 1;
+}
+
+#login {
+	float: right;
+	margin: 10px;
+	padding: 20px;
+}
+
+#login a {
+    background-color: #FF0808;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+#login a:hover {
+    background-color: #4682B4;
+}
+
+#contenido {
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+	background-color: #DACC8F;
+	min-height: 600px;
+}
+
+#pie {
+	clear: both;
+	padding: 5px;
+	text-align: center;
+	background-color: brown;
+}
