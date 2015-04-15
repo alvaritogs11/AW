@@ -2,13 +2,8 @@ body {
 	background-color: white;
 }
 
-a {
-	color: black;
-	text-decoration:none;   
-}
-
 #contenedor {
-	width: 100%;
+	width: 96%;
 	margin: auto;
 	background-color: white;
 	margin-top: 80px;
@@ -146,11 +141,22 @@ span#busca:hover {
 	padding: 2px;
 }
 
-#contenido{
+#ordenarPor {
+	width: 140px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border: 2px solid black;
+	border-radius: 4px;
+	height: 34px;
+}
+
+#contenido {
 	border-radius: 4px;
 	width: 70%;	
-	float:left;
-	height:auto; overflow:hidden;
+	float: left;
+	height: auto;
+	overflow:hidden;
 	-webkit-box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
@@ -164,9 +170,11 @@ span#busca:hover {
 	height: 200px;
 	padding-bottom: 20px;
 }
+
 #x {
-	vertical-align:middle;	
+	vertical-align:middle;
 }
+
 #imagen {	
 	margin-left:10px;
 	width: 30%;
@@ -175,10 +183,11 @@ span#busca:hover {
 	-webkit-box-shadow: -1px 0px 64px 6px rgba(0,0,0,0.75);
 	-moz-box-shadow: -1px 0px 64px 6px rgba(0,0,0,0.75);
 	box-shadow: -1px 0px 64px 6px rgba(0,0,0,0.75);
+	border-radius: 4px;
 }
 
 #informacion {
-	float:right;
+	float: right;
 	width: 60%;
 	height: 100%;
 	padding-right: 10px;
@@ -189,8 +198,13 @@ span#busca:hover {
 	height: 20%;
 }
 
+#superior a {
+	text-decoration: none;
+	color: blue;
+}
+
 #titulo {
-	font-weight:bold;
+	font-weight: bold;
 	float: left;
 	font-size: 20px;
 }
@@ -199,24 +213,24 @@ span#busca:hover {
 	max-height: 75px;
 	overflow: hidden;	
 	height: 45%;
-	text-align:justify;
+	text-align: justify;
 	padding-right: 20px;
 }
 
-#calificacion{
+#calificacion {
 	width: 25%;
 	height: 60%;
-	float:right;
+	float: right;
 	margin-right: 10px;
 }
 
 #estrella {
 	width: 18%;
-	float:left;
+	float: left;
 	height: 100%;
 }
 
-#logo_estrella{
+#logo_estrella {
 	width: 100%;
 	height: 100%;
 }
@@ -226,7 +240,7 @@ span#busca:hover {
 	height: 30%;	
 }
 
-#info_elemento{
+#info_elemento {
 	float: left;
 	vertical-align: bottom;
 	width: 35%;
@@ -240,33 +254,34 @@ span#busca:hover {
 }
 
 #tag {
-	border-radius: 20px;
+	border-radius: 4px;
 	outline:none;
 }
 
-#barralateral{
+#barralateral {
 	width: 23%;
 	height: 80%;
 	border: 2px solid black;
-	position:fixed;
+	position: fixed;
 	right: 10px;
 	top: 100px;
 	background-color:white;
 	border-radius: 4px;
 }
 
-#infoperfil{
+#infoperfil {
 	width: 100%;
 	height: 30%;
 }
 
-#tituloseccion1{
+#tituloseccion1 {
 	background-color: #8FD8A0;
 	width: 100%;
 	height: 25px;
 	border-bottom: 2px solid black;
 }
-#tituloseccion{
+
+#tituloseccion {
 	background-color: #8FD8A0;
 	width: 100%;
 	height: 25px;
@@ -274,44 +289,45 @@ span#busca:hover {
 	border-top: 2px solid black;
 	
 }
-#textotituloseccion{
+
+#textotituloseccion {
 	padding-top: 4px;
-	font-weight:bold;
+	font-weight: bold;
 	margin-left: 5px;
 	text-indent: middle;
 }
 
-#fotoperfil{
+#fotoperfil {
 	width: 30%;
 	height: 65%;
 	margin-top: 5px;
 	margin-left: 5px;
 	float: left;
 	border: 1px solid black;
-	border-radius: 2px;
+	border-radius: 4px;
 }
 
-#logoperfil{
+#logoperfil {
 	width: 100%;
 	height: 100%;
 }
 
-#salir{
+#salir {
 	width: 8%;
 	height: 15%;
 	margin-top: 5px;
-	float:right;
+	float: right;
 	position: relative;
 	top: 5px;
 	right: 5px;
 }
 
-#logosalir{
+#logosalir {
 	width: 100%;
 	height: 100%;
 }
  
-#nombreyestado{
+#nombreyestado {
 	margin-top: 5px;
 	margin-left: 7px;
 	width: 53%;
@@ -319,28 +335,28 @@ span#busca:hover {
 	float: left;
 }
 
-#nombreuser{
+#nombreuser {
 	margin-bottom: 5px;
 	width: 100%;
 	max-width: 100%;
-	overflow:hidden;
+	overflow: hidden;
 	float: left;
-	font-weight:bold;	
+	font-weight: bold;	
 }
 
-#estadouser{
+#estadouser {
 	float: left;
 	max-width: 100%;
 	max-height: 70%;
 	overflow: hidden;
 }
 
-#notificaciones{
+#notificaciones {
 	width: 100%;
 	height: 25%;
 }
 
-#conjunto_notificaciones{
+#conjunto_notificaciones {
 	width: 98%;
 	margin-top: 5px;
 	margin-left: 5px;
@@ -348,13 +364,13 @@ span#busca:hover {
 	overflow: hidden;
 }
 
-#notificacion{
+#notificacion {
 	padding-bottom: 3px;
 	margin-left: 5px;
 	width: 98%;
 }
 
-#enlaceanotificaciones{
+#enlaceanotificaciones {
 	margin-left: 5px;
 	width: 98%;
 	height: 15%;
@@ -363,49 +379,50 @@ span#busca:hover {
 	left: 5px;
 }
 
-#ultimoselementos{
+#ultimoselementos {
 	width: 100%;
 	height: 39%;
 	overflow-y: scroll;
 }
 
-#elemento_act{
+#elemento_act {
 	width: 96%;
 	margin: 8px 6px 6px 7px;
 	height: 40%;
 }
 
-#foto_act{
+#foto_act {
 	float: left;
 	width: 45%;
 	height: 100%;
 }
 
-#imagen_act{
+#imagen_act {
 	width: 100%;
 	height: 100%;
 	-webkit-box-shadow: -1px -1px 17px -2px rgba(0,0,0,0.75);
 	-moz-box-shadow: -1px -1px 17px -2px rgba(0,0,0,0.75);
 	box-shadow: -1px -1px 17px -2px rgba(0,0,0,0.75);
+	border-radius: 4px;	
 }
 
-#info_act{
+#info_act {
 	float: right;
 	width: 50%;
 	height: 100%;
 }
 
-#nombre_act{
-	padding-top:7px;	
-	font-weight:bold;	
+#nombre_act {
+	padding-top: 7px;	
+	font-weight: bold;	
 	font-size: 12px;
 	max-width: 100%;
 	overflow: hidden;
 	height: 27%;
 }
 
-#usuario_act{
-	padding-top:2px;
+#usuario_act {
+	padding-top: 2px;
 	font-size: 12px;
 	max-width: 100%;
 	overflow: hidden;

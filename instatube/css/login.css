@@ -1,34 +1,32 @@
 body {
-	background-color: #9ACCCD;
+	background-color: white;
 }
 
 #contenedor {
-	width: 80%;
+	width: 90%;
 	margin: auto;
 	margin-top: 12px;
-	background-color: #AAAAAA;
 }
 
 #cabecera {
 	padding: 10px;
-	height: 80px;
+	height: 10%;
 	background-color: #8FD8A0;
 	text-align: center;
 }
 
 #contenido {
-	width: 80%;
 	margin: auto;
 	padding: 10px;
-	background-color: #DACC8F;
-	min-height: 450px;
+	-webkit-box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
 }
 
 #login {
 	width: 50%;
 	margin: auto;
 	padding: 10px;
-	background-color: grey;
 }
 
 p#texto {
@@ -58,7 +56,6 @@ p#cond {
 	margin-bottom: 8px;
 	margin-right: 2px;
 	margin-left: 2px;
-	height: 18px;
 	padding: 10px;
 }
 
@@ -78,13 +75,13 @@ p#reg {
 p#reg button {
 	width: 50%;
 	height: 50px;
-	font-size: 20px;
+	font-size: 100%;
 	border-radius: 6px;
+	margin: auto;
 }
 
 #pie {
 	clear: both;
 	padding: 5px;
 	text-align: center;
-	background-color: brown;
 }

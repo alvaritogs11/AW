@@ -2,11 +2,6 @@ body {
 	background-color: white;
 }
 
-a {
-	color: black;
-	text-decoration:none;   
-}
-
 #contenedor {
 	width: 100%;
 	margin: auto;
@@ -130,8 +125,9 @@ span#busca:hover {
 #espacio {
 	height: 20px;
 }
+
 #main {
-	width: 70%;
+	width: 90%;
 	margin: auto;
 	background-color: #FFFFFF;
 	border-radius: 20px;
@@ -143,39 +139,53 @@ span#busca:hover {
 	padding: 2px;
 }
 
-#contenido{
+#ordenarPor {
+	width: 140px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border: 2px solid black;
+	border-radius: 4px;
+	height: 34px;
+}
+
+#contenido {
 	border-radius: 4px;
 	width: 100%;	
 	margin: 0 auto;
-	height:auto; overflow:hidden;
+	height: auto;
+	overflow: hidden;
 	-webkit-box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
 	padding-top: 20px;
-
 }
 
-#elemento{
+#elemento {
 	width: 100%;
 	border: 2px;
 	float: left;
 	height: 200px;
 	padding-bottom: 20px;
 }
+
 #x {
-	vertical-align:middle;	
+	vertical-align: middle;	
 }
+
 #imagen {	
-	margin-left:10px;
+	margin-left: 10px;
 	width: 30%;
 	height: 180px;	
 	float: left;	
 	-webkit-box-shadow: -1px 0px 64px 6px rgba(0,0,0,0.75);
 	-moz-box-shadow: -1px 0px 64px 6px rgba(0,0,0,0.75);
 	box-shadow: -1px 0px 64px 6px rgba(0,0,0,0.75);
+	border-radius: 4px;
 }
+
 #informacion {
-	float:right;
+	float: right;
 	width: 60%;
 	height: 100%;
 	padding-right: 10px;
@@ -187,7 +197,7 @@ span#busca:hover {
 }
 
 #titulo {
-	font-weight:bold;
+	font-weight: bold;
 	float: left;
 	font-size: 20px;
 }
@@ -196,24 +206,24 @@ span#busca:hover {
 	max-height: 75px;
 	overflow: hidden;	
 	height: 45%;
-	text-align:justify;
+	text-align: justify;
 	padding-right: 20px;
 }
 
-#calificacion{
+#calificacion {
 	width: 25%;
 	height: 60%;
-	float:right;
+	float: right;
 	margin-right: 10px;
 }
 
 #estrella {
 	width: 18%;
-	float:left;
+	float: left;
 	height: 100%;
 }
 
-#logo_estrella{
+#logo_estrella {
 	width: 100%;
 	height: 100%;
 }
@@ -223,7 +233,7 @@ span#busca:hover {
 	height: 30%;	
 }
 
-#info_elemento{
+#info_elemento {
 	float: left;
 	vertical-align: bottom;
 	width: 35%;
@@ -238,9 +248,9 @@ span#busca:hover {
 
 #tag {
 	border-radius: 20px;
-	outline:none;
+	outline: none;
+	border-radius: 4px;
 }
-
 
 #pie {
 	clear: both;

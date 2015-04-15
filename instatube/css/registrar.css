@@ -1,12 +1,11 @@
 body {
-	background-color: #9ACCCD;
+	background-color: white;
 }
 
 #contenedor {
 	width: 90%;
 	margin: auto;
 	margin-top: 12px;
-	background-color: #AAAAAA;
 }
 
 #cabecera {
@@ -19,14 +18,15 @@ body {
 #contenido {
 	margin: auto;
 	padding: 10px;
-	background-color: #DACC8F;
+	-webkit-box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
 }
 
 #registro {
 	width: 50%;
 	margin: auto;
 	padding: 10px;
-	background-color: grey;
 }
 
 p#texto {
@@ -99,5 +99,4 @@ p#reg button {
 	clear: both;
 	padding: 5px;
 	text-align: center;
-	background-color: brown;
 }
