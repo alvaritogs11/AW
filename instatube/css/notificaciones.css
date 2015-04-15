@@ -1,0 +1,119 @@
+body {
+	background-color: #9ACCCD;
+}
+
+#contenedor {
+	width: 90%;
+	margin: auto;
+	margin-top: 12px;
+	background-color: #AAAAAA;
+}
+
+#cabecera {
+	padding: 10px;
+	height: 10%;
+	background-color: #8FD8A0;
+	text-align: center;
+}
+
+#contenido {
+	margin: auto;
+	padding: 10px;
+	background-color: #DACC8F;
+}
+
+.tabs {
+    position: relative;
+    min-height: 400px;
+    clear: both;
+    margin: 10px 0;
+}
+
+.tab {
+    float: left;
+}
+
+.tab label {
+    background: #4682B4;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: white;
+    margin-left: -1px;
+    position: left;
+    left: 1px;
+    border-radius: 4px;
+}
+
+/*oculto los inputs para que solo se vean las etiquetas o label*/
+.tab input[type=radio] {
+    display: none;
+}
+
+.content {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    background: #F8F8FF;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    overflow: auto;
+    text-align: justify;
+    border-radius: 4px;
+}
+
+.content > * {
+    display: none;
+}
+
+.tab input[type=radio]:checked ~ label {
+    background: #FF0808;
+    border-bottom: 1px solid #ccc;
+    z-index: 2;
+}
+
+.tab input[type=radio]:checked ~ label ~ .content {
+    z-index: 1;
+}
+
+.tab input[type=radio]:checked ~ label ~ .content > * {
+    display: block;
+}
+
+.avatar {
+	width: 60px;
+	height: 60px;
+    margin: 5px 10px 0 5px;
+    float: left;
+}
+
+.foto {
+	width: 42%;
+	height: 200;
+    margin: 5px 10px 0 5px;
+}
+
+iframe {
+	width: 42%;
+	height: 200px;
+	margin: 5px 10px 0 5px;
+}
+
+.usuario {
+	width: 100%;
+	float: left;
+}
+
+button {
+	width: 80px;
+	height: 20px;
+	border-radius: 4px;
+}
+
+#pie {
+	clear: both;
+	padding: 5px;
+	text-align: center;
+	background-color: brown;
+}

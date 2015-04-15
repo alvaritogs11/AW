@@ -200,6 +200,10 @@ span#busca:hover {
 	padding-right: 30px;
 }
 
+#calificacion a {
+	text-decoration: none;
+}
+
 #inferior {
 	padding-top: 10px;
 	height: 30%;	

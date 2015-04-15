@@ -1,0 +1,71 @@
+body {
+	background-color: #9ACCCD;
+	overflow: auto;
+}
+
+#contenedor {
+	width: 90%;
+	margin: auto;
+	margin-top: 12px;
+	background-color: #AAAAAA;
+}
+
+#cabecera {
+	padding: 10px;
+	height: 10%;
+	background-color: #8FD8A0;
+	text-align: center;
+}
+
+#contenido {
+	margin: auto;
+	padding: 10px;
+	background-color: #DACC8F;
+}
+
+.tipoContenido {
+	width: 60%;
+	margin: auto;
+}
+
+.tipoContenido select {
+	width: 100px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border: 0;
+	border-radius: 4px;
+	height: 34px;
+}
+
+.tipoContenido input {
+	width: 100%;
+}
+
+.tipoContenido textarea {
+	width: 98.6%;
+	height: 100px;
+	resize: none;
+}
+
+button{
+	height: 50px;
+	font-size: 100%;
+	border-radius: 4px;
+}
+
+p#tags {
+	text-align: left;
+}
+
+p#publicar {
+	text-align: right;
+	height: 50px;
+	font-size: 100%;
+}
+
+#pie {
+	clear: both;
+	padding: 5px;
+	text-align: center;
+	background-color: brown;

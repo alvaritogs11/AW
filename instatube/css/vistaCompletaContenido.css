@@ -1,0 +1,134 @@
+body {
+	background-color: #9ACCCD;
+}
+
+#contenedor {
+	width: 90%;
+	margin: auto;
+	margin-top: 12px;
+	background-color: #AAAAAA;
+}
+
+#cabecera {
+	padding: 10px;
+	height: 10%;
+	background-color: #8FD8A0;
+	text-align: center;
+}
+
+#contenido {
+	margin: auto;
+	padding: 10px;
+	background-color: #DACC8F;
+    overflow-y: auto;
+}
+
+.avatar {
+	width: 60px;
+	height: 60px;
+    margin: 5px 10px 0 5px;
+    float: left;
+}
+
+.foto {
+	width: 56%;
+	height: 460px;
+    margin: 5px 10px 0 5px;
+    float: left;
+}
+
+iframe {
+	width: 56%;
+	height: 460px;
+	margin: 5px 10px 0 5px;
+    float: left;
+}
+
+.descripcion {
+	width: 35%;
+	float: right;
+    height: 52px;
+    overflow-y: auto;
+}
+
+.tags {
+    margin-top: 10px;
+    width: 35%;
+    float: right;
+    height: 58px;
+    overflow-y: auto;
+}
+
+.tag {
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.tag button {
+    height: 100%;
+    border-radius: 4px;
+}
+
+.valoracion {
+    width: 35%;
+    float: right;
+}
+
+.estrellas {
+    float: left;
+}
+
+.valoracion button {
+    background-color: inherit;
+    width: 55px;
+    height: 54px;
+    border: 0;
+    padding: 0;
+}
+
+.botones {
+    margin-top: 60px;
+    float: right;
+    width: 35%;
+}
+
+.boton {
+    margin-top: 5px;
+}
+
+#tituloComentario {
+    width: 100%;
+    float: left;
+}
+
+.comentarios {
+    height: 200px;
+    float: left;
+    width: 100%;
+    overflow-y: auto;
+    background-color: #F0FFFF;
+}
+
+.comentario {
+    float: left;
+}
+
+.usuario {
+    width: 100%;
+    float: left;
+}
+
+button {
+	width: 100%;
+	height: 50px;
+    font-size: 100%;
+	border-radius: 4px;
+}
+
+#pie {
+	clear: both;
+	padding: 5px;
+	text-align: center;
+	background-color: brown;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="img/instatube.ico" />
+	<link rel="stylesheet" href="css/nuevoContenido.css">
+	<title>Instatube | Nuevo contenido</title>
+</head>
+<body>
+<div id="contenedor">
+	<div id="cabecera">
+		<h1>Nuevo contenido</h1>
+	</div>
+	<div id="contenido">
+		<form name="nuevoContenido" method="post" action="">
+			<div class="tipoContenido">
+				<select name="tipoCont">
+					<option name="foto">Foto</option>
+					<option name="video">Vídeo</option>
+				</select>
+				<p><input type="file" name="archivo" /></p>
+				<textarea name="descripcion" placeholder="Descripción"></textarea>
+				<p id="tags">
+					<button  type="submit" name="tag">Añadir tags</button>
+				</p>
+				<p id="publicar">
+					<button type="submit" name="publica">Publicar</button>
+				</p>
+			</div>
+		</form>
+	</div>
+	<div id="pie">
+		<p>InstaTube &copy 2015</p>
+	</div>
+</div>
+</body>
+</html>

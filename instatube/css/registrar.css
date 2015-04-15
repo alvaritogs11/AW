@@ -3,7 +3,7 @@ body {
 }
 
 #contenedor {
-	width: 80%;
+	width: 90%;
 	margin: auto;
 	margin-top: 12px;
 	background-color: #AAAAAA;
@@ -11,13 +11,12 @@ body {
 
 #cabecera {
 	padding: 10px;
-	height: 80px;
+	height: 10%;
 	background-color: #8FD8A0;
 	text-align: center;
 }
 
 #contenido {
-	width: 80%;
 	margin: auto;
 	padding: 10px;
 	background-color: #DACC8F;
@@ -62,7 +61,7 @@ p#cond {
 	margin-bottom: 8px;
 	margin-right: 2px;
 	margin-left: 2px;
-	padding: 10px;
+	padding: 19px 10px 19px 10px;
 }
 
 p#caja input {
@@ -92,7 +91,7 @@ p#reg {
 p#reg button {
 	width: 50%;
 	height: 50px;
-	font-size: 20px;
+	font-size: 100%;
 	border-radius: 6px;
 }
 
