@@ -17,6 +17,7 @@ body {
 }
 
 #contenido {
+	width: 80%;
 	margin: auto;
 	padding: 10px;
 	background-color: #DACC8F;
@@ -90,13 +91,13 @@ body {
 
 .foto {
 	width: 42%;
-	height: 200;
+	height: 300px;
     margin: 5px 10px 0 5px;
 }
 
 iframe {
 	width: 42%;
-	height: 200px;
+	height: 300px;
 	margin: 5px 10px 0 5px;
 }
 
