@@ -234,7 +234,11 @@ span#busca:hover {
 	overflow: hidden;
 }
 
-#tag {
+#borrar {
+	width: 40%;
+	background-color: #FF4000;
+	margin-right: 20px;
+	float: right;
 	border-radius: 20px;
 	outline:none;
 }
