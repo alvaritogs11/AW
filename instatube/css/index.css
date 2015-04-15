@@ -196,12 +196,21 @@ span#busca:hover {
 }
 
 #calificacion{
+	width: 25%;
+	height: 60%;
 	float:right;
-	padding-right: 30px;
+	margin-right: 10px;
 }
 
-#calificacion a {
-	text-decoration: none;
+#estrella {
+	width: 18%;
+	float:left;
+	height: 100%;
+}
+
+#logo_estrella{
+	width: 100%;
+	height: 100%;
 }
 
 #inferior {
