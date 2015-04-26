@@ -1,11 +1,12 @@
 body {
-	background-color: white;
+	background-color: #9ACCCD;
 }
 
 #contenedor {
 	width: 90%;
 	margin: auto;
 	margin-top: 12px;
+	background-color: #AAAAAA;
 }
 
 #cabecera {
@@ -18,10 +19,8 @@ body {
 #contenido {
 	margin: auto;
 	padding: 10px;
+	background-color: #DACC8F;
     overflow-y: auto;
-    -webkit-box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
 }
 
 .avatar {
@@ -36,7 +35,6 @@ body {
 	height: 460px;
     margin: 5px 10px 0 5px;
     float: left;
-    border-radius: 4px;
 }
 
 iframe {
@@ -44,7 +42,6 @@ iframe {
 	height: 460px;
 	margin: 5px 10px 0 5px;
     float: left;
-    border-radius: 4px;
 }
 
 .descripcion {
@@ -110,6 +107,7 @@ iframe {
     float: left;
     width: 100%;
     overflow-y: auto;
+    background-color: #F0FFFF;
 }
 
 .comentario {
@@ -119,11 +117,6 @@ iframe {
 .usuario {
     width: 100%;
     float: left;
-}
-
-a {
-    text-decoration: none;
-    color: black;
 }
 
 button {
@@ -137,4 +130,5 @@ button {
 	clear: both;
 	padding: 5px;
 	text-align: center;
+	background-color: brown;
 }

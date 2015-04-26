@@ -1,5 +1,5 @@
 body {
-	background-color: white;
+	background-color: #9ACCCD;
 	overflow: auto;
 }
 
@@ -7,6 +7,7 @@ body {
 	width: 90%;
 	margin: auto;
 	margin-top: 12px;
+	background-color: #AAAAAA;
 }
 
 #cabecera {
@@ -19,9 +20,7 @@ body {
 #contenido {
 	margin: auto;
 	padding: 10px;
-	-webkit-box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
+	background-color: #DACC8F;
 }
 
 .tipoContenido {
@@ -60,4 +59,5 @@ body {
 	clear: both;
 	padding: 5px;
 	text-align: center;
+	background-color: brown;
 }

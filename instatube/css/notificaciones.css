@@ -1,11 +1,12 @@
 body {
-	background-color: white;
+	background-color: #9ACCCD;
 }
 
 #contenedor {
 	width: 90%;
 	margin: auto;
 	margin-top: 12px;
+	background-color: #AAAAAA;
 }
 
 #cabecera {
@@ -16,16 +17,10 @@ body {
 }
 
 #contenido {
+	width: 80%;
 	margin: auto;
 	padding: 10px;
-	-webkit-box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 97px 31px rgba(0,0,0,0.75);
-}
-
-.pestanhas {
-    width: 70%;
-    margin: auto;
+	background-color: #DACC8F;
 }
 
 .tabs {
@@ -96,16 +91,14 @@ body {
 
 .foto {
 	width: 42%;
-	height: 250px;
+	height: 300px;
     margin: 5px 10px 0 5px;
-    border-radius: 4px;
 }
 
 iframe {
 	width: 42%;
-	height: 250px;
+	height: 300px;
 	margin: 5px 10px 0 5px;
-    border-radius: 4px;
 }
 
 .usuario {
@@ -123,4 +116,5 @@ button {
 	clear: both;
 	padding: 5px;
 	text-align: center;
+	background-color: brown;
 }
