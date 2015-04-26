@@ -1,44 +1,10 @@
-<!DOCTYPE html>
-<html lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<link rel="shortcut icon" href="img/instatube.ico" />
-		<link rel="stylesheet" href="css/index.css">
-		<title>InstaTube</title>
-	</head>
-	<body>
-		<div id="cabecera">
-			<ul id="menu">
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="fotos.html">Fotos</a></li>
-				<li><a href="videos.html">Videos</a></li>
-			</ul>
-			<div id="buscador">
-				<form>
-					<input type="text" name="buscar" title="Buscar" placeholder="Buscar en la página" />
-					<button type="submit" />
-					<span id="busca">Buscar</span>
-				</form>
-			</div>
-			<div id="login">
-				<a href="login.html">Log In</a>
-			</div>
-		</div>
-		<div id="contenedor">
-			<div id="main">
-				<div id = "espacio"></div>
-				<div id = "seleccionar">
-					<select id = "ordenarPor">
-						<option value = "Por fecha" selected = "selected">Por fecha</option>
-						<option value = "Por valoracion">Por valoración</option>		
-					</select>
-				</div>
-				<div id = "contenido"> 			
+<?php 
+	echo '<div id = "contenido"> 			
 					<div id = "elemento" > 
-						<div id = "x"><img  id = "imagen" src = "img/estatuillasEgipcias.png"></img> </div>
+						<div id = "x"><iframe id = "imagen" type="text/html" src="http://www.youtube.com/embed/PC0XkjPCZG4" frameborder="0"></iframe> </div>
 						<div id = "informacion">
 							<div id = "superior">
-								<div id = "titulo" >  ESTATUILLAS  </div>
+								<div id = "titulo" >  RISA CONTAGIOSA  </div>
 								<div id = "calificacion" > 
 									<div id = "estrella"><img id = "logo_estrella" src = "img/estrellaA.png"></img> </div>
 									<div id = "estrella"><img id = "logo_estrella" src = "img/estrellaA.png"></img> </div>
@@ -47,32 +13,32 @@
 									<div id = "estrella"><img id = "logo_estrella" src = "img/estrellaN.png"></img> </div>
 								</div>
 							</div>
-							<div id = "descripcion"> Estatuillas de Montu, Señor de Medamud, de la Diosa Uadyet de Buto,  y de Horus con cabeza de halcón.</div>
+							<div id = "descripcion"></div>
 							<div id = "inferior">
 								<div id = "info_elemento">
 									<div id = "numvisitas">  Nº visitas: 1111111 </div>
 									<div id = "subidopor">  Subido por: adfasdfasd </div>
 								</div>
 								<div  id = "tags"> 
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag"  type = "button" value = "montaña" ></input></a>
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag"  type = "button" value = "montaña" ></input></a>
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag"  type = "button" value = "montaña" ></input></a>
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag"  type = "button" value = "montaña" ></input>
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag"  type = "button" value = "montaña" ></input>
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag"  type = "button" value = "montaña" ></input>
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag" type = "button" value = "paisaje" ></input>
 								</div>	
 							</div>
 						</div>
 					</div>		
 					
 					<div id = "elemento" > 
-						<div id = "x"><img id = "imagen" src = "img/alcazarSevilla.png"></img> </div>
+						<div id = "x"><iframe id = "imagen" type="text/html" src="http://www.youtube.com/embed/XGSy3_Czz8k" frameborder="0"></iframe> </div>
 						<div id = "informacion">
 							<div id = "superior">
-								<div id = "titulo" > ALCAZAR DE SEVILLA </div>
+								<div id = "titulo" > Ruth Lorenzo </div>
 								<div id = "calificacion" > 
 									<div id = "estrella"><img id = "logo_estrella" src = "img/estrellaA.png"></img> </div>
 									<div id = "estrella"><img id = "logo_estrella" src = "img/estrellaA.png"></img> </div>
@@ -81,25 +47,25 @@
 									<div id = "estrella"><img id = "logo_estrella" src = "img/estrellaN.png"></img> </div>
 								</div>
 							</div>
-							<div id = "descripcion"> Los escenarios donde se rueda 'Juego de tronos' atraen cada vez a más curiosos. El Real Alcázar de Sevilla es el reino de Dorne en la quinta temporada.</div>
+							<div id = "descripcion"> Ruth Lorenzo Knocking On Heavens Door X Factor 08 11 2008 (Safe and Through to the next Round!)</div>
 							<div id = "inferior">
 								<div id = "info_elemento">
 									<div id = "numvisitas"> Nº visitas: 1111111 </div>
 									<div id = "subidopor">  Subido por: adfasdfasd </div>
 								</div>
 								<div  id = "tags"> 
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag"  type = "button" value = "montaña" ></input></a>
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag"  type = "button" value = "montaña" ></input>	</a>					
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag"  type = "button" value = "montaña" ></input>
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag"  type = "button" value = "montaña" ></input>						
 								</div>	
 							</div>
 						</div>
 					</div>
 				
 					<div id = "elemento" > 
-						<div id = "x"><img id = "imagen" src = "img/ola.png"></img> </div>
+						<div id = "x"><iframe id = "imagen" type="text/html" src="http://www.youtube.com/embed/PC0XkjPCZG4" frameborder="0"></iframe> </div>
 						<div id = "informacion">
 							<div id = "superior">
 								<div id = "titulo" > MONTAÑA </div>
@@ -112,25 +78,25 @@
 								</div>
 							</div>
 						
-							<div id = "descripcion"> Esta es la foto de una montaña nevada, de los Alpes</div>
+							<div id = "descripcion"> Ruth Lorenzo Knocking On Heavens Door X Factor 08 11 2008 (Safe and Through to the next Round!)</div>
 							<div id = "inferior">
 								<div id = "info_elemento">
 									<div id = "numvisitas">  Nº visitas: 1111111  </div>
 									<div id = "subidopor">  Subido por: adfasdfasd </div>
 								</div>
 								<div  id = "tags"> 
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag"  type = "button" value = "montaña" ></input></a>
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag"  type = "button" value = "montaña" ></input>	</a>					
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag"  type = "button" value = "montaña" ></input>
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag"  type = "button" value = "montaña" ></input>						
 								</div>	
 							</div>
 						</div>
 					</div>
 					
 					<div id = "elemento" > 
-						<div id = "x"><img id = "imagen" src = "img/tifon.png"></img> </div>
+						<div id = "x"><iframe id = "imagen" type="text/html" src="http://www.youtube.com/embed/PC0XkjPCZG4" frameborder="0"></iframe> </div>
 						<div id = "informacion">
 							<div id = "superior">
 							<div id = "titulo" > OLA </div>
@@ -157,11 +123,11 @@
 									<div id = "subidopor"> Subido por: adfasdfasd </div>
 								</div>
 								<div  id = "tags"> 
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag"  type = "button" value = "montaña" ></input></a>
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag"  type = "button" value = "montaña" ></input>	</a>					
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag"  type = "button" value = "montaña" ></input>
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag"  type = "button" value = "montaña" ></input>						
 								</div>	
 							</div>
 						</div>
@@ -169,7 +135,7 @@
 
 
 					<div id = "elemento" > 
-						<div id = "x"><img id = "imagen" src = "img/instatube.png"></img> </div>
+						<div id = "x"><iframe id = "imagen" type="text/html" src="http://www.youtube.com/embed/PC0XkjPCZG4" frameborder="0"></iframe> </div>
 						<div id = "informacion">
 							<div id = "superior">
 								<div id = "titulo" > ESTATUILLAS</div>
@@ -188,20 +154,16 @@
 									<div id = "subidopor"> Subido por: adfasdfasd </div>
 								</div>
 								<div  id = "tags"> 
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag"  type = "button" value = "montaña" ></input></a>
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag" type = "button" value = "paisaje" ></input></a>
-									<a href = "fotos.html"><input id = "tag"  type = "button" value = "montaña" ></input>	</a>					
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag"  type = "button" value = "montaña" ></input>
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag" type = "button" value = "paisaje" ></input>
+									<input id = "tag"  type = "button" value = "montaña" ></input>						
 								</div>	
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div id="pie">
-				<p>InstaTube &copy 2015</p>
-			</div>
-		</div>
-	</body>
-</html>
+			</div>';
+
+?>
